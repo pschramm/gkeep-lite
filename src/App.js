@@ -203,7 +203,7 @@ class App extends React.Component{
      
       <div>
         <div className="header">
-          <img src="./logo.png" />
+          <img src="./logo.png" alt="logo" />
           <h3>Keep</h3>
           <input className="search" type="text" placeholder="Search" value={this.state.search ? this.state.search : ""} onChange={(e)=>this.handleSearch(e.target.value)}/>
         </div>
